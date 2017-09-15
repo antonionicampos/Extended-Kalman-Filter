@@ -38,10 +38,10 @@ VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
   rmse = rmse.array().sqrt();
 
   // print RMSE
-  cout << fixed << setprecision(4);
-  cout << "-------------------------------------------------" << endl;
-  cout << "RMSE\t\t>> " << rmse(0) << "  " << rmse(1) << "  "  << rmse(2) << "  " << rmse(3) << endl;
-  cout << "RMSE (max)\t>> 0.1100  0.1100  0.5200  0.5200" << endl;
+  //cout << fixed << setprecision(4);
+  //cout << "-------------------------------------------------" << endl;
+  //cout << "RMSE\t\t>> " << rmse(0) << "  " << rmse(1) << "  "  << rmse(2) << "  " << rmse(3) << endl;
+  //cout << "RMSE (max)\t>> 0.1100  0.1100  0.5200  0.5200" << endl;
 
   // Return the Root Mean Squared Error
   return rmse;
