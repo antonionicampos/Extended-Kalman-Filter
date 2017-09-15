@@ -27,3 +27,11 @@ Once the install for uWebSocketIO is complete, the main program can be built and
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
+  
+  ---
+  
+## Results
+  
+For Dataset 1, the RMSE for the output coordinates for each frame is [here]() and the final RMSE for the coordinates are represented on the image below.
+
+
