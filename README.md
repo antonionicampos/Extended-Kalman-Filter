@@ -32,6 +32,8 @@ Once the install for uWebSocketIO is complete, the main program can be built and
   
 ## Results
   
-For Dataset 1, the RMSE for the output coordinates for each frame is [here]() and the final RMSE for the coordinates are represented on the image below.
+For Dataset 1, the RMSE for the output coordinates for each frame is [here](build/output_rmse.txt) and the final RMSE for the coordinates are represented on the image below.
+
+![Image with final RMSE](src/image_RMSE.png)
 
 
